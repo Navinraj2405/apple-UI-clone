@@ -88,7 +88,7 @@ A purchase of ₹79900.00 repaid over 12 months with an interest rate of 15.99% 
         </div>
         </div>
         <p className="mx-32 mt-3">More ways to shop: Find an Apple Store or other retailer near you. Or call 000800 040 1966.</p>
-        <div className="mx-32 mt-5">
+        <div className="mx-32 mt-5 py-10">
         <p>Copyright © 2025 Apple Inc. All rights reserved.Privacy Policy |  Terms of Use | Sales Policy | Legal Site | Map</p>
         </div>
 </div>
