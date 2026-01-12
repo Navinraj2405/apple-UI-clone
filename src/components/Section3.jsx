@@ -1,3 +1,10 @@
+import React from "react";
+import ipad from '/public/ipad.jpg'
+import applewatch from '/public/applewatch10.webp'
+import student from '/public/student.jpeg'
+import tradeimg from '/public/tradeimg.webp'
+
+
 function Section3(){
     return(
 <div className="grid grid-cols-2 gap-4 p-5">
@@ -7,7 +14,7 @@ function Section3(){
          <div><button className="bg-blue-500 px-2 py-2 rounded-xl mt-3 text-white" >Learn More</button>
     <button className="py-2 px-6 rounded-xl mt-3 text-white bg-blue-500 ml-5">Buy</button></div>
     <img
-        src="ipad.jpg"
+        src={ipad}
         alt="ipad.jpg"
         className="w-1/2 object-contain"
       />
@@ -20,7 +27,7 @@ function Section3(){
     <button className="py-2 px-6 rounded-xl mt-3 text-white bg-blue-500 ml-5">Buy</button></div>
 
     <img
-        src="applewatch10.webp"
+        src= {applewatch}
         alt="applewatch10.webp"
         className="w-1/2 object-contain"
       />
@@ -28,7 +35,7 @@ function Section3(){
  <div className="flex flex-col justify-center items-center  h-screen relative overflow-hidden shadow-lg ">
     
   <img
-    src="student.jpeg"
+    src= {student}
     alt="student.jpeg"
     className="absolute top-0 left-0 w-full h-full object-cover"
   /> 
@@ -45,7 +52,7 @@ function Section3(){
  
     </div>
      <img
-    src="tradeimg.webp"
+    src= {tradeimg}
     alt="/tradeimg.webp"
     className="absolute top-0 left-0 w-full h-full object-cover"
   /> 

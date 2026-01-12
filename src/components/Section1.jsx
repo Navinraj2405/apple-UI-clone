@@ -1,4 +1,4 @@
- 
+ import iphone16 from '/public/iPhone-16-Pro-Max-1.avif'
 
 
 function Section1(){
@@ -10,7 +10,7 @@ function Section1(){
     <button className=" px-2 py-2 rounded-xl mt-3 text-white bg-blue-500 ml-5">Shop more</button></div>
     <p className="mt-5">Built for apple intelegent</p>
       <img
-        src="iPhone-16-Pro-Max-1.avif"
+        src={iphone16}
         alt="iPhone 16 Pro Max"
         className="w-1/2 object-contain"
       />

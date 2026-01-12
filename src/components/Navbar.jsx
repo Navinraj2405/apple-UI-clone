@@ -1,10 +1,12 @@
 import React from "react";
+import iphonelogo from '/public/applelogo.png'
+import searchimg from '/public/search-img.png'
 function Navbar(){
 
     return(
     <nav className="flex justify-between p-5 fixed top-0 z-40 bg-white w-full">
         <ul className="flex justify-between mx-auto gap-8"> 
-            <li><img src="applelogo.png" className="w-10"/></li>
+            <li><img src={iphonelogo} className="w-10"/></li>
             <li  className="hover:cursor-pointer hover:underline">Store</li>
             <li  className="hover:cursor-pointer hover:underline">Mac</li>
             <li  className="hover:cursor-pointer hover:underline">iPad</li>
@@ -15,7 +17,7 @@ function Navbar(){
             <li  className="hover:cursor-pointer hover:underline">Entertainment</li>
             <li  className="hover:cursor-pointer hover:underline">Accessories</li>
             <li  className="hover:cursor-pointer hover:underline">Support</li>
-             <li><img src="search-img.png" className="w-6"/></li>
+             <li><img src={searchimg} className="w-6"/></li>
              </ul>
     </nav>
     ) 
